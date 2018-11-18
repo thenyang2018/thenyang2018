@@ -63,12 +63,10 @@
  }
 
  .hr-primary{
-   margin-top: 0 !important;
    border-top: 3px solid #C6183F;
  }
 
  .hr-secondary{
-   margin-top: 0 !important;
    border-top: 5px solid #333;
  }
 
@@ -382,7 +380,7 @@
  }
 
  .bg-primary {
-   background-color: #F2F2F2 !important;
+   background-color: #FFF !important;
  }
 
  .bg-secondary {
@@ -416,6 +414,7 @@
    bottom: 0;
    width: 100%;
    height: auto;
+   margin: auto;
  }
 
  .thumbnail-image-landscape {
@@ -426,4 +425,5 @@
    bottom: 0;
    width: auto;
    height: 100%;
+   margin: auto;
  }
