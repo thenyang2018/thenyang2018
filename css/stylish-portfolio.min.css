@@ -322,7 +322,6 @@
  }
 
  .social-link {
-   margin-right:0.5rem !important;
    display: block;
    height: 4rem;
    width: 4rem;
@@ -336,7 +335,7 @@
  }
 
  .social-link:hover {
-   background-color: #155d74;
+   /*background-color: #155d74;*/
    text-decoration: none;
  }
 
@@ -396,4 +395,35 @@
 
  .text-secondary {
    color: #333333 !important;
+ }
+
+ .thumbnail-box {
+   position: relative;
+   width: 100%;
+   padding-top: 100%;
+   overflow: hidden;
+ }
+
+ .thumbnail-box .centered {
+
+ }
+
+ .thumbnail-image-portrait {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   width: 100%;
+   height: auto;
+ }
+
+ .thumbnail-image-landscape {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   width: auto;
+   height: 100%;
  }
