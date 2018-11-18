@@ -10,7 +10,9 @@
  }
 
  body {
-   font-family: 'Source Sans Pro';
+   @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+   font-family: 'Noto Sans KR', sans-serif !important;
+   letter-spacing: -1px;
  }
 
  .btn-xl {
@@ -28,6 +30,10 @@
  .content-section-heading h3 {
    padding-bottom: 2rem;
    font-size: 1.5rem;
+ }
+
+ .content-section-heading p {
+   font-size: 1.25rem;
  }
 
  .content-section-content {
@@ -57,10 +63,12 @@
  }
 
  .hr-primary{
+   margin-top: 0 !important;
    border-top: 3px solid #C6183F;
  }
 
  .hr-secondary{
+   margin-top: 0 !important;
    border-top: 5px solid #333;
  }
 
@@ -314,6 +322,7 @@
  }
 
  .social-link {
+   margin-right:0.5rem !important;
    display: block;
    height: 4rem;
    width: 4rem;
@@ -341,14 +350,15 @@
  }
 
  .btn-primary {
+   border-radius: 1.25rem;
    background-color: #C6183F !important;
    border-color: #C6183F !important;
    color: #fff !important;
  }
 
  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-   background-color: #155d74 !important;
-   border-color: #155d74 !important;
+   background-color: #942335 !important;
+   border-color: #942335 !important;
  }
 
  .btn-secondary {
