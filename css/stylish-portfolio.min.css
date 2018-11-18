@@ -18,23 +18,33 @@
  }
 
  .content-section {
-   padding-top: 7.5rem;
-   padding-bottom: 7.5rem;
+   padding-top: 3rem;
  }
 
  .content-section-heading h2 {
-   font-size: 3rem;
+   font-size: 2rem;
  }
 
  .content-section-heading h3 {
-   font-size: 2rem;
-   text-transform: uppercase;
+   padding-bottom: 2rem;
+   font-size: 1.5rem;
  }
 
  .content-section-content {
-   padding-top: 2.5rem;
-   padding-bottom: 2.5rem;
+   padding-bottom: 2rem;
    text-align: center;
+ }
+ .content-section-content h2 {
+   font-size: 1.75rem;
+ }
+
+ .content-section-content h3 {
+   font-size: 1.5rem;
+ }
+
+ .content-section-content p {
+   font-size: 1.25rem;
+
  }
 
  h1,
@@ -44,11 +54,6 @@
  h5,
  h6 {
    font-weight: 700;
- }
-
- p {
-   font-size: 2rem !important;
-   font-weight: bold !important;
  }
 
  .hr-primary{
@@ -304,24 +309,24 @@
  }
 
  footer.footer {
-   padding-top: 5rem;
-   padding-bottom: 5rem;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
  }
 
- footer.footer .social-link {
+ .social-link {
    display: block;
    height: 4rem;
    width: 4rem;
    line-height: 4.3rem;
    font-size: 1.5rem;
-   background-color: #1D809F;
+   background-color: #FFF;
    -webkit-transition: background-color 0.15s ease-in-out;
    transition: background-color 0.15s ease-in-out;
    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
  }
 
- footer.footer .social-link:hover {
+ .social-link:hover {
    background-color: #155d74;
    text-decoration: none;
  }
@@ -369,6 +374,10 @@
 
  .bg-primary {
    background-color: #F2F2F2 !important;
+ }
+
+ .bg-secondary {
+   background-color: #333 !important;
  }
 
  .text-primary {
